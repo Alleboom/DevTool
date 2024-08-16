@@ -9,6 +9,7 @@ https://raw.githubusercontent.com/Gethe/wow-ui-source/live/Interface/FrameXML/UI
     <!--FONTS -->
     <Font name="DevToolDefaultFont" inherits="SystemFont_Small" justifyH="LEFT"/>
     <Font name="DevToolMediumFont" inherits="SystemFont_Med1" justifyH="LEFT" virtual="true"/>
+    
     <Texture name="DevToolStrokeTexture" virtual="true">
         <Color r="0.1" g="0.1" b="0.1" a="1"/>
     </Texture>

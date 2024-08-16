@@ -12,6 +12,14 @@ local DevTool = addonTable.DevTool
 --add global reference to the addon object
 _G["DevTool"] = addonTable.DevTool
 
+--Load the appropriate language able
+local L = LibStub("AceLocale-3.0"):GetLocale("DevTool")
+
+-- testing purposes only. Remove with Release candidate
+-- TODO: Remove with release
+DevTool:AddData(L, "Language Table")
+
+
 --store the colors outside the database in a class level table
 DevTool.colors = {}
 DevTool.colors["gray"] = CreateColorFromHexString("FFBEB9B5")
